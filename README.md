@@ -1,5 +1,6 @@
 # elefinder
-1、本模块的实现是基于python+selenium的组合;
-2、本模块初步实现了基本的页面元素查找方法以及expected_conditions预期条件判断方法的封装;
-3、本模块暂未考虑后期异常对象的捕捉与处理，后续再补充;
-4、本模块是作者本人对于初学自动化的入门尝试，存在许多欠缺，欢迎大家指出并进行交流学习;
+1、element check framework 的实现是基于 python 3.4+ 和 selenium webdriver;<br>
+2、实现了基本的页面 single element 查找以及 expected conditions 判断和 action 触发;<br>
+3、action 触发现在只支持单元素，因为暂不支持同时查找多元素，所以暂未实现两个元素拖拽的动作（drag_and_drop 和 drag_and_drop_by_offset）;<br>
+4、窗口切换功能未实现;<br>
+5、elefinder 是个人学习小项目，欢迎交流。
